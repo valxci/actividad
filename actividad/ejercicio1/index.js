@@ -3,7 +3,7 @@ class Coche {
     constructor(marca, modelo, ano) {
         this.marca = marca
         this.modelo = modelo
-        this.ano = ano
+        this.ano = ano //this se refuiere al objeto mismo/ se refiere al objeto no a la clase 
     }
 
     mostrarDatos() {
